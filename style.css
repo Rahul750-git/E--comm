@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin: 10px;
+    padding: 10px;
+   width:100% ;
+   /* background-color: whitesmoke; */
+    color: black;
+    border-radius: 15px;
+    display:flex;
+    text-align: center;
+    justify-content:center;
+     height: 50px;
+}
+.nav{
+    width: 30px;
+    height: 30px;
+     position: relative;
+     left: 50%;   
+   
+     border-radius: 100%;
+}
+.nav:hover {
+        height: 40px;
+        width: 40px;
+}
+
+.logo{
+   font-size: larger; 
+position: absolute;
+left: 10%;
+top: 2.5%;
+    text-align: start;
+     
+}
+.logo:hover{
+    font-size: 15px;
+    text-shadow: 5px 5px 5px purple;
+}
+
+#navbar{
+display: flex;
+text-align: center;
+gap: 60px;    
+ justify-content: space-between;  
+}
+a:hover{
+    font-size: 15px;
+    text-shadow: 5px 5px 5px purple;
+}
+.middle{
+    position: absolute;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+.side{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: orange;
+    font-weight: 600;
+    font-size: small;
+    display: block;
+    position: absolute;
+    left: 55%;
+    top: 5%;
+
+}
+h1{
+position: absolute;
+top: 8%;
+left: 55%;
+font-size: xx-large;
+font-weight: 600;
+}
+p{
+  position: absolute;
+top: 25%;
+left: 55%;  
+color: slategray;
+}
+.price{
+    color: slategray;
+    position: absolute;
+top: 40%;
+left: 60%;
+}
+.dis{
+height: 5px;
+width: 5px;
+background-color: rgb(192, 164, 113);
+color: orange;
+text-align: center;
+}
+.under{
+    text-decoration: line-through;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(199, 204, 209);
+    position: absolute;
+     left: 90%;
+     margin-top: 40px;
+     text-align: center;
+     border-radius: 15px;
+     
+}
+.org{
+    color: orange;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+}
+.zero{
+    font-size: 20px;
+    padding: 20px; 
+
+}
+
+
+.shoes{
+    margin: 3px;
+    padding: 5px;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 65%;
+    margin-left: 7px;
+}
+.image1{
+    height: 70px;
+    width: 70px;
+    margin-left: 13px;
+    border-radius: 15px;
+    
+}
+.image2{
+    height: 70px;
+    width: 70px;
+    margin-left: 13px;
+    border-radius: 15px;
+    
+}
+.image3{
+    height: 70px;
+    width: 70px;
+    margin-left: 13px;
+    border-radius: 15px;
+    
+}
+.image4{
+    height: 70px;
+    width: 70px;
+    margin-left: 13px;
+    border-radius: 15px;
+    
+}
+.image5{
+    height: 70px;
+    width: 70px;
+    margin-left: 13px;
+    border-radius: 15px;
+    
+}
+
